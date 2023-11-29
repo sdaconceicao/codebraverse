@@ -1,0 +1,24 @@
+{
+	"name": "@codebra/codebraverse",
+	"version": "0.0.1",
+	"description": "The multiverse of repos",
+	"scripts": {},
+	"author": "Stephen da Conceicao",
+	"license": "MIT",
+	"engines": {
+		"node": ">=20",
+		"yarn": "please-use-npm"
+	},
+	"devDependencies": {
+		"@nrwl/nx-cloud": "^16.0.5",
+		"nx": "15.9.2",
+		"prettier": "2.4.1"
+	},
+	"workspaces": [
+		"apps/*",
+		"components/*",
+		"config/*",
+		"utils/*"
+	],
+	"private": true
+}
